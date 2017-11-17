@@ -1,0 +1,68 @@
+body {
+	font-family: "Raleway", sans-serif;
+	background-image: url("C:/Users/cosinus/Desktop/projekt/background.jpg");
+	}
+form {
+	color:#130303;
+	font-family: "Raleway", sans-serif;
+}
+#photo2 {
+		width:100%;
+		margin: 0 auto;
+}
+#dane {
+	color:#130303;
+	display: block;
+	width: 60%;
+}
+#menu {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #5c575a;
+  font-size: 2em;
+  opacity: 0.7;
+  }
+#menu ul {
+  list-style: none; }
+
+#menu ul li {
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  padding: 10px 10px 10px 10px; }
+
+#menu a {
+	color: #130303;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+}
+.jumbotron {
+  margin-top: 5%;
+  font-family: "Raleway", sans-serif;
+}
+
+
+#menu a:hover {
+	color: 	#dbdbdb;
+}
+
+footer {
+  display:block;
+  margin-top: 5%;
+  color: color: #130303;
+  font: 1.4em italic;
+  font-family: "Raleway", sans-serif;
+  border-top: solid 5px dotted #5c575a;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.5em;
+  }

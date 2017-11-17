@@ -1,0 +1,136 @@
+body {
+	background-image: url("C:/Users/cosinus/Desktop/projekt/background.jpg");
+	}
+
+a {
+	color: #5c575a;
+	text-decoration: none;
+}
+
+p {
+	color: #5c575a;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #dbdbdb;
+}
+.about {
+	text-align: center;
+	font-size: 1.3em;
+}
+.obraz {
+	display: block; 
+	margin: 6em auto 0 auto;
+	opacity: 0.8;
+}
+#laptop{
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 10 10 10 10;
+}
+
+#menu {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #5c575a;
+  font-size: 2em;
+  opacity: 0.7;
+  }
+#menu ul {
+  list-style: none; }
+
+#menu ul li {
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  padding: 10px 10px 10px 10px; }
+
+#menu a {
+	color: #130303;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+}
+
+#menu a:hover {
+	color: 	#dbdbdb;
+}
+#photo {
+	width:30%;
+	float: left;
+	display: block;
+
+}
+
+#box_news {
+	float: left;
+	width: 99%;
+	padding: 5px;
+	font-family: "Raleway", sans-serif;
+	
+}
+
+#box_news h2, #box_sidebar h2 {
+	font-size: 2em;
+	text-transform: none;
+	color: #130303;
+	font-weight: bold;
+}
+
+#box_news p, #box_sidebar p {
+	color: 	#5c575a;
+	line-height: 1.5em;
+	text-align: justify;
+	font-size: 1em;
+}
+
+#box_sidebar {
+	width: 35%;
+	float: right;
+	padding: 5px;
+	padding-left: 30px;
+}
+
+#box_sidebar a {
+	color: 	#5c575a;
+	font-size: 1em;
+}
+
+#box_sidebar span {
+	color: 	#5c575a;
+	padding-top: 10px;
+}
+
+#container {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight:bold;
+	color: #130303;
+	text-align: center;
+}
+
+footer {
+  margin-top: 5%;
+  color: color: #130303;
+  font: 1.4em italic;
+  font-family: "Raleway", sans-serif;
+  border-top: solid 5px dotted #5c575a;
+  text-align: right;
+  width:98%;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.5em;
+  }
+
