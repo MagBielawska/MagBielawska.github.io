@@ -1,21 +1,27 @@
 <!DOCTYPE html>
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <meta  content="charset=utf-8"/>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/kontakt.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="css/kontakt.css" type="text/css">
-        <title>Magda Bielawska - kontakt</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+        <title>Magda Bielawska</title>
     </head>
-<body>
-		<nav id="menu">    
-            <ul>
-            <li><a href="projekt.html">Strona główna</a></li>
-            <li><a href="CV.html">O mnie</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </nav>
-	<div class="jumbotron jumbotron-fluid-sm">
-	  <div class="container-sm">
+    <body>
+   <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Magda Bielawska</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Strona główna</a></li>
+      <li><a href="CV.html">O mnie</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </div>
+</nav>
+	<div class="jumbotron jumbotron-fluid-xs">
+	  <div class="container-xs">
 	    <h1 class="display-3">Formularz kontaktowy</h1>
 	    <p class="lead">Jeśli zainteresowała Cię moja osoba, zapraszam do kontaktu</p>
 	  </div>
@@ -23,16 +29,16 @@
 <div class="container">
 	<form>
 		<div class="row">
-  			<div class="col-6"><div class="form-group">
+  			<div class="col-sm-5" class="col-md-6"><div class="form-group">
 				<label for="name">Imię i nazwisko/ Firma*</label>
 				<input type="text" class="form-control" id="name" placeholder="" required="required" /></div></div>
- 			<div class="col-6"><div class=form-group">
+ 			<div class="col-sm-7" class="col-md-6"><div class=form-group">
 				<label for="email"> E-mail *</label>
 				<div class="input-group">
 				<input type="email" class="form-control" id="email" placeholder="" required="required" /></div></div> </div>
   		</div>
 		<div class="row">
- 			<div class="col-12"><div class="form-group">
+ 			<div class="col-sm-12"><div class="form-group">
 					<label for="name">
 					Wiadomość *</label>
 					<textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
